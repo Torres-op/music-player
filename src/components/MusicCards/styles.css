@@ -1,0 +1,40 @@
+.music-cards {
+  display: flex;
+  flex-direction: column;
+
+  width: 280px;
+  height: 460px;
+}
+
+.music-cards:hover {
+  opacity: 0.85;
+
+  border-radius: 4px;
+  background: linear-gradient(180deg, #0c0505 0%, #3a3535 47.92%, #5e5858 100%);
+
+  cursor: pointer;
+}
+
+.music-cards img {
+  width: 280px;
+  height: 280px;
+}
+
+.music-cards span {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 8px;
+}
+
+.music-cards p {
+  color: #ccc3c3;
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: normal;
+}

@@ -1,0 +1,85 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: initial;
+  flex-direction: row;
+
+  width: 100vw;
+
+  background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0) 100%);
+}
+
+.music-informations {
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 50px;
+
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.music-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.music-artist {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.music-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: calc(100% - 300px);
+  margin-right: 350px;
+}
+
+.music-player button {
+  all: unset;
+}
+
+.music-player-buttons {
+  display: flex;
+  gap: 40px;
+
+  margin-right: 44px;
+}
+
+.music-player-buttons button:hover {
+  opacity: 0.8;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+
+  margin-left: 58px;
+
+  color: #ccc3c3;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.progress-bar progress {
+  width: 660px;
+  height: 10px;
+}
+
+.music-player button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  background: linear-gradient(180deg, #0c0505 0%, #3a3535 47.92%, #5e5858 100%);
+}
+
+hr {
+  all: unset;
+
+  width: 100vw;
+  height: 2px;
+
+  background: #6a6363;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: initial;
+
+  height: calc(100vh - 310px);
+  width: calc(100vw - 480px);
+  margin: 0px 160px;
+}
+
+.container-main h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-main hr {
+  all: unset;
+
+  display: flex;
+  align-items: center;
+
+  height: 2px;
+  width: calc(100vw - 480px);
+  margin-bottom: 10px;
+
+  background: #6a6363;
+}
+
+.container-music-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
