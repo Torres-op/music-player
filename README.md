@@ -1,25 +1,32 @@
-![](https://i.imgur.com/xG74tOh.png)
+# Projeto de React - Cubos Player
 
-# Aula prática de React - Cubos Player
+Esse é um projeto que eu fiz durante o curso de **Desenvolvedor Web** da [Cubos Academy](https://cubos.academy/), onde eu tive de criar um site de músicas utilizando o [React](https://github.com/facebook/create-react-app).
 
-Essa aula prática consiste em desenvolver um player de músicas, para isso você usará o layout figma que se encontra nesse [link](https://www.figma.com/file/2RRh9uG0Mjj6p4p6ekVnNp/Cubos-Player?node-id=0%3A1).
-
-
-Caso você queira importar o arquivo do figma no seu computador, ele está nessa pasta com o nome `Cubos Player.fig`
-
-
-Os detalhes do que você precisará desenvolver está nos vídeos introdutórios da aula...
-
-
-... mas o layout que você irá encontrar no figma é esse:
-
-![](https://i.imgur.com/kU1nrcS.png)
+![Imgur](https://i.imgur.com/JtsTYOB.png)
 
 ---
-### Dicas
-Não sabe por onde começar? Que tal começar olhando o que já existe dentro do projeto, após isso pense no projeto final e defina pequenas tarefas para chegar a esse resultado.
+## Funcionalidades
 
-No exercício será necessário:
+-  [ ] Quando clicar na imagem de uma música, a música é iniciada;
+
+-  [ ] O player mostra o nome do artista e da música tocando;
+
+-  [ ] Ao pressionar o botão de play, a música deve começar;
+
+-  [ ] Ao pressionar o botão de pause, a música deve parar;
+
+-  [ ] Ao pressionar o botão de avançar, trocar para a próxima música;
+
+-  [ ] Ao pressionar o botão de retroceder, trocar para a música anterior;
+
+-  [ ] Ao pressionar o botão de parar, parar de tocar a música;
+
+
+## Sobre o projeto
+
+Esse foi um projeto inicial para por em prática conhecimentos básicos do React.
+
+Na criação desse projeto, eu tive que utilizar alguns desses conhecimentos:
 
 - Criar e manipular estado
 - Criar e manipular referências
@@ -29,19 +36,15 @@ No exercício será necessário:
 - Executar uma ação várias vezes de tempo em tempo
 - Importar dados do arquivo json
 - Procurar itens
+  
+### Como executar o projeto
 
+Para iniciar o projeto você deverá:
 
-As duas aulas anteriores são as mais importantes para você conseguir desenvolver esse projeto.
+- Clonar o projeto para a sua máquina, utilizando o comando `git clone`;
+- Depois de clonar o projeto, utilizar o comando `npm install` para baixar os arquivos do React necessários;
+- Executar o projeto com o React, utilizando o comando `npm start`. Esse comando iniciará o projeto no seu navegador a partir deste [link](http://localhost:3000)
 
+Em caso de dúvidas na utilização do React e para mais referência, você pode acessar a documentação do [creat-react-app](https://create-react-app.dev/docs/getting-started/) e do [React](https://react.dev/).
 
----
-
-Preencha a checklist para fazer os exercícios:
-
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
-
-###### tags: `módulo 3` `front-end` `React`
 
