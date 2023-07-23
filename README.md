@@ -35,9 +35,8 @@ Na criação desse projeto, eu tive que utilizar alguns desses conhecimentos:
 - Importar imagens
 - Executar uma ação várias vezes de tempo em tempo
 - Importar dados do arquivo json
-- Procurar itens
   
-### Como executar o projeto
+### Como executar o projeto:
 
 Para iniciar o projeto você deverá:
 
